@@ -1,0 +1,37 @@
+body {
+    background-color: gray;
+    
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    width: 75%;
+    margin:auto;
+    margin-top:40px;
+    font-size: 24px;
+    background-color: bisque;
+    text-align: center;
+}
+.results,
+.scores,
+.number {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    margin: auto;
+    width: 75%;
+    font-size: 24px;
+}
